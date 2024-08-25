@@ -23,8 +23,20 @@ body {
   font-family: var(--main-font);
 }
 
-p {
-  font-size: 0.87;
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--green);
+  font-weight: 600;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=global.css.map */

@@ -10,8 +10,8 @@
 
 .profile__container {
   background-color: hsl(0, 0%, 12%);
-  width: 500px;
-  height: 800px;
+  width: 31.25rem;
+  height: 50rem;
   border-radius: 15px;
   padding: 3.12rem;
   position: relative;
@@ -24,26 +24,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 50px;
 }
 .profile__container .profile__content .profile__info {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
 }
 .profile__container .profile__content .profile__info img {
   border-radius: 50%;
+}
+.profile__container .profile__content .profile__info .profile__owner {
+  text-align: center;
 }
 .profile__container .profile__content .profile__link {
   width: 100%;
 }
 .profile__container .profile__content .profile__link ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.profile__container .profile__content .profile__link ul li {
+.profile__container .profile__content .profile__link ul li a {
+  display: block;
   background: var(--grey-700);
-  padding: 15px;
   text-align: center;
+  padding: 15px;
   border-radius: 8px;
+}
+.profile__container .profile__content .profile__link ul li a:active {
+  background: var(--green);
+  color: var(--grey-900);
 }
 
 /*# sourceMappingURL=style.css.map */
