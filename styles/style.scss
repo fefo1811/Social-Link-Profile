@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    // Colors
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+    // Font
+    --white: hsl(0, 0%, 100%);
+    --green: hsl(75, 94%, 57%);
+
+    --main-font: "Inter", sans-serif;
+}
+
+.profile__container {
+    background-color: hsl(0, 0%, 12%);
+
+    width: 500px;
+    height: 800px;
+    border-radius: 15px;
+    padding: 3.12rem;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    .profile__content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .profile__info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                border-radius: 50%;
+            }
+        }
+
+        .profile__link {
+            width: 100%;
+
+            ul {
+                list-style: none;
+
+                li {
+                    background: var(--grey-700);
+                    padding: 15px;
+                    text-align: center;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+}
